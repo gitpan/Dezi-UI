@@ -8,7 +8,7 @@ use Plack::Request;
 use Plack::Util::Accessor qw( search_path );
 use Data::Dump qw( dump );
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 =head1 NAME
 
@@ -16,7 +16,7 @@ Dezi::UI - HTML interface to a Dezi server
 
 =head1 SYNOPSIS
 
- % dezi --ui_class=Dezi::UI
+ % dezi --ui-class=Dezi::UI
 
 =head1 DESCRIPTION
 
